@@ -1,0 +1,51 @@
+declaraci´on de variables.
+int a // declaraci´on de variables de tipo entero.
+float b=0.5 // declaraci´on de variables ne decimal
+doble c=.2345 // mayor presici´on que float
+char t;
+string;
+
+
+Estructuras de control:
+if (a=1)
+	{
+	printf("has seleccionado la opci´on 1")
+	}
+   else
+    print("no existe");
+    
+while (a=0)  // mientras que
+
+
+for(int p=0; p=10;p++) // contador
+
+switch
+
+case
+  case 1
+	  
+	  ingreso de datos 
+	  scanf
+	  
+
+
+Hern´andez M´endez Jaime Ilich
+21 de agosto de 2021
+
+
+
+#include <stdio.h>
+int main (){
+    int opcion, i;
+    printf("Que opcion te gustaria elegir\n");
+    for (i=0; i<8; i++){
+        printf("Opcion: %i\n", i);
+    }
+    scanf("%i", &opcion);
+    if(opcion < 9){
+        printf("Elegiste la opcion %i", opcion);
+    }
+    else{
+        printf("no existe esa opcion");
+    }
+}
