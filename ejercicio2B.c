@@ -18,18 +18,18 @@ int main()
     scanf("%lf",&b); */
     printf("Introduce dos numeros a, b separadas por un espacio\n para hacer las cuato operaciones aritmeticas basicas:\n");
     scanf("%lf %lf",&a,&b);
-    if (b==0)
-    {
+
         printf(" a + b = %lf\n",a+b);
         printf(" a - b = %lf\n",a-b);
         printf(" a * b = %lf\n",a*b);
+
+    if (b==0)
+    {
         printf("Con el valor de b = %lf la division es indeterminada",b);
     }
+    
     else
     {
-    printf(" a + b = %lf\n",a+b);
-    printf(" a - b = %lf\n",a-b);
-    printf(" a * b = %lf\n",a*b);
     printf(" a / b = %lf\n",a/b);
     }
     
